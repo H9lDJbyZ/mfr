@@ -4,20 +4,24 @@
 # есть список животных в зоопарке
 
 zoo = ['lion', 'kangaroo', 'elephant', 'monkey', ]
-
+print(zoo)
 # посадите медведя (bear) между львом и кенгуру
 #  и выведите список на консоль
-# TODO здесь ваш код
+zoo.insert(zoo.index('lion')+1, 'bear')
+print(zoo)
 
 # добавьте птиц из списка birds в последние клетки зоопарка
 birds = ['rooster', 'ostrich', 'lark', ]
 #  и выведите список на консоль
-# TODO здесь ваш код
+zoo += birds
+print(zoo)
 
 # уберите слона
 #  и выведите список на консоль
-# TODO здесь ваш код
+zoo.pop(zoo.index('elephant'))
+print(zoo)
 
 # выведите на консоль в какой клетке сидит лев (lion) и жаворонок (lark).
 # Номера при выводе должны быть понятны простому человеку, не программисту.
-# TODO здесь ваш код
+print('lion', zoo.index('lion')+1)
+print('lark', zoo.index('lark')+1)
