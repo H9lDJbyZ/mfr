@@ -47,7 +47,7 @@ print('Лампа -', lamps_quantity0, 'шт, стоимость', lamps_quantit
 # WARNING для знающих циклы: БЕЗ циклов. Да, с переменными; да, неэффективно; да, копипаста.
 # Это задание на ручное вычисление - что бы потом понять как работают циклы и насколько с ними проще жить.
 
-# TODO здесь ваш код
+
 table_code = goods['Стол']
 table_item0 = store[table_code][0]
 tables_quantity0, tables_price0 = table_item0['quantity'], table_item0['price']
